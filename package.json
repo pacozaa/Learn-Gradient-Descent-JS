@@ -1,0 +1,28 @@
+{
+  "name": "learn-gradient-descent",
+  "version": "1.0.0",
+  "description": "Learn Gradient Descent with Javascript",
+  "main": "dis/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "functionPlot": "tsc && node dist/functionPlot.js",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paco",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chance": "^1.1.9",
+    "mathjs": "11.5.0",
+    "nodeplotlib": "1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-plugin-react": "^7.32.0",
+    "typescript": "^4.9.4"
+  }
+}

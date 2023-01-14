@@ -29,6 +29,10 @@ Since this will be javascript project, I decide to use
 
 - `npm install`
 
+## Usage
+
+- `npm run functionPlot`
+
 ## Function
 
 [functionPlot](functionPlot.ts)
